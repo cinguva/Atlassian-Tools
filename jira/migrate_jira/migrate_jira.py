@@ -11,8 +11,8 @@
 import json
 import requests
 import sys
-import migrate_jira_creds
-import DESTINATION_jira_creds
+import source_jira_creds
+import destination_jira_creds
 
 # Disable SSL warnings
 requests.packages.urllib3.disable_warnings()
